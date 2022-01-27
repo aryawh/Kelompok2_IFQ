@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.65;
+  background-color: rgb(36, 161, 156);
+  padding-bottom: 1000px;
+}
+
+.container-satu {
+  width: 800px;
+  margin: 50px auto;
+  background-color: rgb(250, 238, 231);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.halaman-utama {
+  flex: 1;
+  order: 8;
+}
+
+.sidebar-satu {
+  flex: 3;
+  order: 1;
+}
+
+.sidebar-dua {
+  flex: 2;
+  order: 9;
+}
